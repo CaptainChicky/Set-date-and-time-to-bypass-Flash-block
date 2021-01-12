@@ -30,6 +30,6 @@ cls
 goto Start
 
 :Start
-echo date 01-11-2021
-date 01-11-2021
+echo date 12-31-2020
+date 12-31-2020
 pause

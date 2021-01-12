@@ -7,8 +7,8 @@ if (-Not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
  }
 }
 
+sc.exe config W32Time start= demand
 net start w32time
 w32tm /resync /nowait /force
 net stop w32time
 pause
-

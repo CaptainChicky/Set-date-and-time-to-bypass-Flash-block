@@ -30,6 +30,7 @@ cls
 goto Start
 
 :Start
+sc.exe config W32Time start= disabled
 echo date 12-31-2020
 date 12-31-2020
 pause
